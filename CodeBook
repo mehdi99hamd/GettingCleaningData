@@ -1,0 +1,53 @@
+This code book summarises the data fields in “tidy dataset.txt”
+
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals. These time domain signals were captured at a constant rate of 50 Hz. 
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration 
+signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. Subsequently, the body 
+linear acceleration and angular velocity were derived in time to obtain Jerk signals. Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm.  
+
+Identifiers
+- subject - the ID of the subject
+- activity - the name of the activity performed by the subject when measurements were taken
+
+Measurements
+"TimeBodyAcceleratorMeanX"                    
+"TimeBodyAcceleratorMeanY"                     
+"TimeBodyAcceleratorMeanZ"                      
+"TimeBodyAcceleratorStdX"                      
+"TimeBodyAcceleratorStdY"                       
+"TimeBodyAcceleratorStdZ"                      
+"TimeGravityAcceleratorMeanX"                   "TimeGravityAcceleratorMeanY"                  
+"TimeGravityAcceleratorMeanZ"                   
+"TimeGravityAcceleratorStdX"                   
+"TimeGravityAcceleratorStdY"                    
+"TimeGravityAcceleratorStdZ"                   
+"TimeBodyAcceleratorJerkMeanX"                  "TimeBodyAcceleratorJerkMeanY"                 
+"TimeBodyAcceleratorJerkMeanZ"                  "TimeBodyAcceleratorJerkStdX"                  
+"TimeBodyAcceleratorJerkStdY"                   "TimeBodyAcceleratorJerkStdZ"                  
+"TimeBodyGyroscopeMeanX"                        
+"TimeBodyGyroscopeMeanY"                       
+"TimeBodyGyroscopeMeanZ"                        
+"TimeBodyGyroscopeStdX"                        
+"TimeBodyGyroscopeStdY"                         
+"TimeBodyGyroscopeStdZ"                        
+"TimeBodyGyroscopeJerkMeanX"                    "TimeBodyGyroscopeJerkMeanY"                   
+"TimeBodyGyroscopeJerkMeanZ"                    "TimeBodyGyroscopeJerkStdX"                    
+"TimeBodyGyroscopeJerkStdY"                     "TimeBodyGyroscopeJerkStdZ"                    
+"TimeBodyAcceleratorMagnitudeMean"              "TimeBodyAcceleratorMagnitudeStd"              
+"TimeGravityAcceleratorMagnitudeMean"           "TimeGravityAcceleratorMagnitudeStd"           
+"TimeBodyAcceleratorJerkMagnitudeMean"          "TimeBodyAcceleratorJerkMagnitudeStd"          
+"TimeBodyGyroscopeMagnitudeMean"                "TimeBodyGyroscopeMagnitudeStd"                
+"TimeBodyGyroscopeJerkMagnitudeMean"            "TimeBodyGyroscopeJerkMagnitudeStd"            
+"FrequencyBodyAcceleratorMeanX"                 "FrequencyBodyAcceleratorMeanY"                
+"FrequencyBodyAcceleratorMeanZ"                 "FrequencyBodyAcceleratorStdX"                 
+"FrequencyBodyAcceleratorStdY"                  "FrequencyBodyAcceleratorStdZ"                 
+"FrequencyBodyAcceleratorJerkMeanX"             "FrequencyBodyAcceleratorJerkMeanY"            
+"FrequencyBodyAcceleratorJerkMeanZ"             "FrequencyBodyAcceleratorJerkStdX"             
+"FrequencyBodyAcceleratorJerkStdY"              "FrequencyBodyAcceleratorJerkStdZ"             
+"FrequencyBodyGyroscopeMeanX"                   "FrequencyBodyGyroscopeMeanY"                  
+"FrequencyBodyGyroscopeMeanZ"                   "FrequencyBodyGyroscopeStdX"                   
+"FrequencyBodyGyroscopeStdY"                    "FrequencyBodyGyroscopeStdZ"                   
+"FrequencyBodyAcceleratorMagnitudeMean"         "FrequencyBodyAcceleratorMagnitudeStd"         
+"FrequencyBodyBodyAcceleratorJerkMagnitudeMean" "FrequencyBodyBodyAcceleratorJerkMagnitudeStd" 
+"FrequencyBodyBodyGyroscopeMagnitudeMean"       "FrequencyBodyBodyGyroscopeMagnitudeStd"       
+"FrequencyBodyBodyGyroscopeJerkMagnitudeMean"   "FrequencyBodyBodyGyroscopeJerkMagnitudeStd"  
